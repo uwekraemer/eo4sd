@@ -44,6 +44,13 @@
 </head>
 <body bgcolor="#E7F5FA">
 
+<style>
+      .img-container {
+        text-align: center;
+        display: block;
+      }
+</style>
+
 <!-- The html code below produces the  top menu bar and banner immediately below this, and should be  common to all the pages -->
 <header id="navbar" role="banner" class="navbar navbar-fixed-top navbar-default">
     <div class="header-top row">
@@ -113,21 +120,28 @@
 </div>
 <div style="width:100%; z-index:2">
 
+<!-- 
     <div class="table-title">
-        <h3><a href="../index.html"><img src="../images/icons/up2.png" width="50" alt="Up"></a>&nbsp;&nbsp;&nbsp;West Africa</h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-			Click on a country on the map to display its data:<br><br>
-    </div>
+        <h3><a href="../index.html"><img src="../images/icons/up2.png" width="50" alt="Up"></a>&nbsp;&nbsp;&nbsp;West Africa</h3>
+</div>
     <table class="table-fill">
         <thead>
         <tbody>
         <tr>
-            <th class="text-center"><strong>Click on a country on the map to display its data:</strong></th>
+            <th class="text-center"><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Click on a country on the map to display its data:</strong></th>
+        </tr>
+        <tr>
+            <th class="text-center">&nbsp;</th>
         </tr>
         </thead>
 	</table>
+</div>
+ -->
 
-
-<img src="../images/WestAfrica_countries_cut.png" alt="West Africa Map" width="800" usemap="#wamap" align="center"></div>
+<div class="img-container">
+<h3><a href="../index.html"><img src="../images/icons/up2.png" width="50" alt="Up"></a>&nbsp;&nbsp;&nbsp;WEST AFRICA</h3><p><strong>Click on a country on the map to display its data:</strong></p><br>
+  <p><img src="../images/WestAfrica_countries_cut.png" alt="West Africa Map" width="800" usemap="#wamap" align="center"> </p>
+</div>
 
 <map name="wamap">
 		<area shape="rect" coords="629,308,697,339" href="nigeria.html" alt="Nigeria">
