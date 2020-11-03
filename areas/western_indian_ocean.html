@@ -17,11 +17,8 @@
     <!--  1. Mostly generic Drupal code which may (or may not) be needed -->
     <style>
 @import url("http://eo4sd-marine.eu/modules/system/system.base.css?q2yqzo");
-
-
-
-
     </style>
+
     <style>
 @import url("http://eo4sd-marine.eu/sites/all/modules/contrib/date/date_api/date.css?q2yqzo");
 @import url("http://eo4sd-marine.eu/modules/field/theme/field.css?q2yqzo");
@@ -29,28 +26,24 @@
 @import url("http://eo4sd-marine.eu/sites/all/modules/contrib/views/css/views.css?q2yqzo");
 @import url("http://eo4sd-marine.eu/sites/all/modules/contrib/ckeditor/css/ckeditor.css?q2yqzo");
 @import url("http://eo4sd-marine.eu/sites/all/modules/contrib/media/modules/media_wysiwyg/css/media_wysiwyg.base.css?q2yqzo");
-
-
-
-
     </style>
+
     <style>
 @import url("http://eo4sd-marine.eu/sites/all/modules/contrib/colorbox/styles/default/colorbox_style.css?q2yqzo");
 @import url("http://eo4sd-marine.eu/sites/all/modules/contrib/ctools/css/ctools.css?q2yqzo");
 @import url("http://eo4sd-marine.eu/sites/all/modules/contrib/addtoany/addtoany.css?q2yqzo");
 @import url("http://eo4sd-marine.eu/sites/all/libraries/fontawesome/css/font-awesome.css?q2yqzo");
-
-
-
     </style>
-
 
     <!-- 2.  Style sheets containing the ESA specific styles -->
     <style>
 @import url("http://eo4sd-marine.eu/sites/all/themes/contrib/eo4sdbtsp/css/style.css?q2yqzo");
-
-
     </style>
+
+    <style>
+@import url("../modules/bc/datatable.css");
+    </style>
+
 </head>
 
 <body bgcolor="#E7F5FA">
@@ -130,13 +123,7 @@
     <p>&nbsp;</p>
 </div>
 
-<style>
-@import url("../modules/bc/datatable.css");
-
-</style>
-
 <!--<div style="table-title; width:100%; z-index:2;">-->
-
 <div class="table-title">
     <h3><a href="../index.html"><img src="../images/icons/up2.png" width="50" alt="Up"></a>&nbsp;&nbsp;&nbsp;Western
         Indian
@@ -188,38 +175,6 @@
         </td>
     </tr>
 
-
-    <!--    <tr>-->
-<!--        <td class="text-center"><strong>SAR detected shoreline - Beira, Mozambique (2019)</strong></td>-->
-<!--        <td class="text-center"><a href="../data/Mozambique/Coastline/Beira 2019/quicklook_beira.png"-->
-<!--                                   target="_blank">-->
-<!--            <img src="../data/Mozambique/Coastline/Beira 2019/large_image_beira.png" alt="" width="150"-->
-<!--                 height="244"><br><br>(1.3MB)</a></td>-->
-<!--        <td class="text-center">-->
-<!--            <details>-->
-<!--                <summary>-->
-<!--                    Ratio of average is a local method used to detect edges within a 9x9 kernel (a small subset of-->
-<!--                    data) within the median filtered SAR image.-->
-<!--                </summary>-->
-<!--                This delineates linear features, kept here in raster format.-->
-<!--                Sentinel images were preprocessed via SNAP which included the following.-->
-<!--                Calibration, Speckle filtering, Terrain correction and masking between land and water.-->
-<!--                This dataset is in the early stages of development and is unvalidated.-->
-<!--                Semi-automatic shoreline detection produced from a median of 31 Sentinel-1 SAR images from 2019.-->
-<!--            </details>-->
-<!--        </td>-->
-<!--        <td class="text-center"><strong>Mozambique</strong></td>-->
-<!--        <td class="text-center"><strong>20190101 - 20191230</strong></td>-->
-<!--        <td class="text-center"><strong><a-->
-<!--                href="https://storage.cloud.google.com/eo4sd-271513.appspot.com/Mozambique/Coastline/PDF%20maps%20of%20selected%20areas%202019/beria_map.pdf?authuser=0&_ga=2.241683137.-252854561.1591625844"-->
-<!--                target="_blank">-->
-<!--            Beira map (PDF, 3.4MB)</a><br><br>-->
-<!--            <a href="https://storage.cloud.google.com/eo4sd-271513.appspot.com/Mozambique/Coastline/Beria%202019/WaterEdges_mozambique_beria_2019_RoA_PI3_WS9.tif"-->
-<!--               target="_blank">GIS data (TIF, 460MB)</a><br><br>-->
-<!--            <a href="https://storage.cloud.google.com/eo4sd-271513.appspot.com/Mozambique/Coastline/Beria%202019/WaterEdges_mozambique_beria_2019_RoA_PI3_WS9.xml"-->
-<!--               target="_blank">Metadata (XML, 9KB)</a></strong>-->
-<!--        </td>-->
-<!--    </tr>-->
     <tr>
         <td class="text-center">&nbsp;</td>
         <td class="text-center">&nbsp;</td>
@@ -229,51 +184,6 @@
         <td class="text-center">&nbsp;</td>
     </tr>
 
-    <!--        <tr>
-                <td class="text-left"><strong>Median SAR image Inhaca-ponta, Mozambique</strong></td>
-                <td class="text-center"><a href="../data/Mozambique/Coastline/Inhacaponta 2019/stack_mozambique_inhaca_ponta_2019.jpg" target="_blank">
-                <img src="../data/Mozambique/Coastline/Inhacaponta 2019/stack_mozambique_inhaca_ponta_2019_ql.jpg" alt=""/><br><br>(7.0MB)</a></td>
-                <td class="text-center">TBD</td>
-                <td class="text-center">Mozambique</td>
-                <td class="text-center">TBD</td>
-                <td class="text-center"><a href="https://storage.cloud.google.com/eo4sd-271513.appspot.com/Mozambique/Coastline/PDF%20maps%20of%20selected%20areas%202019/inhaca_Map.pdf?authuser=0" target="_blank"><strong>Inhaca-ponta Map (PDF, 6.1MB)</strong></a><br><br><a href="https://storage.cloud.google.com/eo4sd-271513.appspot.com/Mozambique/Coastline/Inhacaponta%202019/WaterEdges_mozambique_inhaca_ponta_2019_RoA_PI3_WS9.tif?authuser=0" target="_blank"><strong>GeoTIFF/GIS data (505.4MB)</strong></a></td>
-
-            </tr>
-            <tr>
-                <td class="text-center"><strong>Shoreline Inhaca-ponta, Mozambique</strong></td>
-                <td class="text-center"><img src="../data/Mozambique/Coastline/Inhacaponta 2019/WaterEdges_mozambique_inhaca_ponta_2019_RoA_PI3_WS9_ql.png" width="110"</a></td>
-                <td class="text-center">TBD</td>
-                <td class="text-center"><strong>Mozambique</strong></td>
-                <td class="text-center">Shoreline maps with estimated locations for high and low water lines.</td>
-                <td class="text-center"><a href="https://storage.cloud.google.com/eo4sd-271513.appspot.com/Mozambique/Coastline/Inhacaponta%202019/WaterEdges_mozambique_inhaca_ponta_2019_RoA_PI3_WS9.tif?authuser=0" target="_blank"><strong>GeoTIFF/GIS data (505.4MB)</strong></td>
-            </tr>
-            <tr>
-                <td class="text-center"><strong>Median SAR image Inhambane, Mozambique</strong></td>
-                <td class="text-center"><a href="../data/Mozambique/Coastline/Inhambane 2019/stack_mozambique_inhambane_2019.jpg" target="_blank">
-                    <img src="../data/Mozambique/Coastline/Inhambane 2019/stack_mozambique_inhambane_2019_ql.jpg" alt=""/><br><br>(5.7MB)</a></td>
-                <td class="text-center">TBD</td>
-                <td class="text-center"><strong>Mozambique</strong></td>
-                <td class="text-center">TBD</td>
-                <td class="text-center"><a href="https://storage.cloud.google.com/eo4sd-271513.appspot.com/Mozambique/Coastline/Inhambane%202019/stack_mozambique_inhambane_2019.tif?authuser=0" target="_blank"><strong>GeoTIFF/GIS data (486.0MB)</strong></td>
-            </tr>
-            <tr>
-              <td class="text-center"><strong>Shoreline Inhambane, Mozambique</strong></td>
-                <td class="text-center"><a href="../data/Mozambique/Coastline/Inhambane 2019/WaterEdges_mozambique_inhambane_2019_RoA_PI3_WS9.jpg" target="_blank">
-              <img src="../data/Mozambique/Coastline/Inhambane 2019/WaterEdges_mozambique_inhambane_2019_RoA_PI3_WS9_ql.jpg" width="109" height="239" alt=""/><br><br>(5.4MB)</a></td>
-                <td class="text-center">TBD</td>
-                <td class="text-center"><strong>Mozambique</strong></td>
-                <td class="text-center">TBD</td>
-                <td class="text-center"><a href="https://storage.cloud.google.com/eo4sd-271513.appspot.com/Mozambique/Coastline/Inhambane%202019/WaterEdges_mozambique_inhambane_2019_RoA_PI3_WS9.tif?authuser=0" target="_blank"><strong>GeoTIFF/GIS data (486.0MB)</strong></a></td>
-            </tr>
-            <tr>
-                <td class="text-center">&nbsp;</td>
-                <td class="text-center">&nbsp;</td>
-                <td class="text-center">&nbsp;</td>
-                <td class="text-center">&nbsp;</td>
-                <td class="text-center">&nbsp;</td>
-                <td class="text-center">&nbsp;</td>
-            </tr>
-    -->
     </tbody>
 </table>
 </body>
