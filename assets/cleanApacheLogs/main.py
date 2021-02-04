@@ -6,8 +6,9 @@ _author_ = 'uwe'
 
 blacklistFile = "/Volumes/Elephant/Users/uwe/Documents/BC-projects/Development/html/ApacheLogs/eo4sd/blacklist.txt"
 apacheLogFile = "/Volumes/Elephant/Users/uwe/Documents/BC-projects/Development/html/ApacheLogs/eo4sd/raw log files/" \
-                "access-eo4sd.brockmann-consult.de.log.2020-10-11-12"
+                "access-eo4sd.brockmann-consult.de.log.2021-01"
 newOutputFile = apacheLogFile + ".cleaned"
+cleanedContentFile = apacheLogFile + ".removed"
 
 
 def read_list(file):
@@ -20,6 +21,7 @@ if __name__ == '__main__':
     blacklist = read_list(blacklistFile)
     loglist = read_list(apacheLogFile)
     newOutput = open(newOutputFile, 'w')
+    cleanedContent = open(cleanedContentFile, 'w')
 
     for logLineCount in range((len(loglist))):
         _line = loglist[logLineCount].rstrip('\n')
@@ -36,5 +38,8 @@ if __name__ == '__main__':
 
         if _clean:
             newOutput.write(_line + '\n')
+        else:
+            cleanedContent.write(_line + '\n')
 
     newOutput.close()
+    cleanedContent.close()
