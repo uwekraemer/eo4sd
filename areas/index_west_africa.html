@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="profile" href="http://www.w3.org/1999/xhtml/vocab"/>
+    <link href="http://www.w3.org/1999/xhtml/vocab" rel="profile"/>
     <meta charset="utf-8">
     <!--    <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
-    <meta name="viewport" content="width=1024"/>
+    <meta content="width=1024" name="viewport"/>
 
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <meta name="Generator" content="Drupal 7 (http://drupal.org)"/>
-    <link rel="shortcut icon" href="http://eo4sd-marine.eu/sites/all/themes/contrib/eo4sdbtsp/favicon.ico"
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+    <meta content="Drupal 7 (http://drupal.org)" name="Generator"/>
+    <link href="http://eo4sd-marine.eu/sites/all/themes/contrib/eo4sdbtsp/favicon.ico" rel="shortcut icon"
           type="image/vnd.microsoft.icon"/>
     <title>Events | marine and coastal resources</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
@@ -18,6 +18,7 @@
     <!--  1. Mostly generic Drupal code which may (or may not) be needed -->
     <style>
 @import url("http://eo4sd-marine.eu/modules/system/system.base.css?q2yqzo");
+
     </style>
 
     <style>
@@ -27,6 +28,7 @@
 @import url("http://eo4sd-marine.eu/sites/all/modules/contrib/views/css/views.css?q2yqzo");
 @import url("http://eo4sd-marine.eu/sites/all/modules/contrib/ckeditor/css/ckeditor.css?q2yqzo");
 @import url("http://eo4sd-marine.eu/sites/all/modules/contrib/media/modules/media_wysiwyg/css/media_wysiwyg.base.css?q2yqzo");
+
     </style>
 
     <style>
@@ -34,15 +36,18 @@
 @import url("http://eo4sd-marine.eu/sites/all/modules/contrib/ctools/css/ctools.css?q2yqzo");
 @import url("http://eo4sd-marine.eu/sites/all/modules/contrib/addtoany/addtoany.css?q2yqzo");
 @import url("http://eo4sd-marine.eu/sites/all/libraries/fontawesome/css/font-awesome.css?q2yqzo");
+
     </style>
 
     <!-- 2.  Style sheets containing the ESA specific styles -->
     <style>
 @import url("http://eo4sd-marine.eu/sites/all/themes/contrib/eo4sdbtsp/css/style.css?q2yqzo");
+
     </style>
 
     <style>
 @import url("../modules/bc/datatable.css");
+
     </style>
 
     <style>
@@ -50,17 +55,18 @@
         text-align: center;
         display: block;
       }
+
     </style>
 
 </head>
 
 <body bgcolor="#E7F5FA">
 <!-- The html code below produces the  top menu bar and banner immediately below this, and should be  common to all the pages -->
-<header id="navbar" role="banner" class="navbar navbar-fixed-top navbar-default">
+<header class="navbar navbar-fixed-top navbar-default" id="navbar" role="banner">
     <div class="header-top row">
         <div class="container">
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+                <button class="navbar-toggle" data-target="#navbar-collapse" data-toggle="collapse" type="button">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
@@ -72,23 +78,23 @@
                     <ul class="menu nav navbar-nav">
                         <li class="first leaf"><a href="http://www.esa.int/ESA" target="_blank"
                                                   title="European Space Agency website">ESA</a></li>
-                        <li class="leaf active"><a href="https://eo4sd-marine.eu" class="active">OVERVIEW</a></li>
-                        <li class="leaf active"><a href="https://eo4sd-marine.eu/#portfolio"
-                                                   class="active">PORTFOLIO</a></li>
-                        <li class="expanded dropdown"><a href="https://eo4sd-marine.eu/capacity" data-target="#"
-                                                         class="dropdown-toggle"
-                                                         data-toggle="dropdown">CAPACITY <span class="caret"></span></a>
+                        <li class="leaf active"><a class="active" href="https://eo4sd-marine.eu">OVERVIEW</a></li>
+                        <li class="leaf active"><a class="active"
+                                                   href="https://eo4sd-marine.eu/#portfolio">PORTFOLIO</a></li>
+                        <li class="expanded dropdown"><a class="dropdown-toggle" data-target="#"
+                                                         data-toggle="dropdown"
+                                                         href="https://eo4sd-marine.eu/capacity">CAPACITY <span class="caret"></span></a>
                             <ul class="dropdown-menu">
                                 <li class="first last leaf"><a href="/capacity">Capacity Building</a></li>
                             </ul>
                         </li>
-                        <li class="leaf active-trail active"><a href="https://eo4sd-marine.eu/#consortium"
-                                                                class="active-trail active">CONSORTIUM</a>
+                        <li class="leaf active-trail active"><a class="active-trail active"
+                                                                href="https://eo4sd-marine.eu/#consortium">CONSORTIUM</a>
                         </li>
                         <li class="leaf"><a href="https://eo4sd-marine.eu/contact">CONTACT</a></li>
-                        <li class="expanded dropdown"><a href="https://eo4sd-marine.eu/news" data-target="#"
-                                                         class="dropdown-toggle"
-                                                         data-toggle="dropdown">NEWS <span class="caret"></span></a>
+                        <li class="expanded dropdown"><a class="dropdown-toggle" data-target="#"
+                                                         data-toggle="dropdown"
+                                                         href="https://eo4sd-marine.eu/news">NEWS <span class="caret"></span></a>
                             <ul class="dropdown-menu">
                                 <li class="first leaf"><a href="/events">EVENTS</a></li>
                                 <li class="leaf"><a href="/news">LATEST ARTICLES</a></li>
@@ -102,11 +108,11 @@
                 </nav>
                 <div class="networks">
                     <a href="https://twitter.com/eo_intdev" target="_blank"><img
-                            src="https://eo4sd-marine.eu/sites/all/themes/contrib/eo4sdbtsp/img/icon-twitter.jpg"
-                            alt="Twitter"></a>
+                            alt="Twitter"
+                            src="https://eo4sd-marine.eu/sites/all/themes/contrib/eo4sdbtsp/img/icon-twitter.jpg"></a>
                     <a href="https://www.youtube.com/watch?v=9zZfSCRoUb4" target="_blank"><img
-                            src="https://eo4sd-marine.eu/sites/all/themes/contrib/eo4sdbtsp/img/icon-youtube.jpg"
-                            alt="Youtube"></a>
+                            alt="Youtube"
+                            src="https://eo4sd-marine.eu/sites/all/themes/contrib/eo4sdbtsp/img/icon-youtube.jpg"></a>
                 </div>
             </div>
         </div>
@@ -114,7 +120,7 @@
     <div class="header-esa container">
         <div class="logo">
             <a class="logo navbar-btn pull-left" href="https://eo4sd-marine.eu/" title="Home">
-                <img src="https://eo4sd-marine.eu/sites/all/themes/contrib/eo4sdbtsp/img/logo-eo4sd.png" alt="Home"/>
+                <img alt="Home" src="https://eo4sd-marine.eu/sites/all/themes/contrib/eo4sdbtsp/img/logo-eo4sd.png"/>
             </a>
         </div>
         <div class="site-title">
@@ -130,40 +136,35 @@
 <div style="width:100%; height:200px; z-index:1">
     <p>&nbsp;</p>
 </div>
-<div style="width:100%; z-index:2">
 
-</div>
+<!--<div style="width:100%; z-index:2"></div>-->
 
 <map name="wamap">
-    <area shape="rect" coords="630,308,700,334" href="nigeria.html" alt="Nigeria">
-    <area shape="rect" coords="113,34,208,59" href="mauritania.html" alt="Mauritania">
-    <area shape="rect" coords="33,133,106,159" href="senegal.html" alt="Senegal">
-    <area shape="rect" coords="108,242,173,272" href="guinee.html" alt="Guinee">
-    <area shape="rect" coords="114,304,169,343" href="sierra_leone.html" alt="Sierra Leone">
-    <area shape="rect" coords="158,363,228,389" href="liberia.html" alt="Liberia">
-    <area shape="rect" coords="261,364,375,392" href="cote_d_ivoire.html" alt="C&ocirc;te d'Ivoire">
-    <area shape="rect" coords="409,364,466,389" href="ghana.html" alt="Ghana">
-    <area shape="rect" coords="484,427,530,449" href="togo.html" alt="Togo">
-    <area shape="rect" coords="526,411,581,431" href="benin.html">
-    <area shape="rect" coords="564,523,672,563" href="sao_tome_principe.html"
-          alt="S&atilde;o Tom&eacute; &amp; Pr&iacute;ncipe">
-    <area shape="rect" coords="35,511,315,535" href="https://eo4sd.eofrom.space/?state=476a3b" alt="GIS Portal">
-    <area shape="rect" coords="35,551,261,575"
+    <area alt="Nigeria" coords="630,308,700,334" href="nigeria.html" shape="rect">
+    <area alt="Mauritania" coords="113,34,208,59" href="mauritania.html" shape="rect">
+    <area alt="Senegal" coords="33,133,106,159" href="senegal.html" shape="rect">
+    <area alt="Guinee" coords="108,242,173,272" href="guinee.html" shape="rect">
+    <area alt="Sierra Leone" coords="114,304,169,343" href="sierra_leone.html" shape="rect">
+    <area alt="Liberia" coords="158,363,228,389" href="liberia.html" shape="rect">
+    <area alt="C&ocirc;te d'Ivoire" coords="261,364,375,392" href="cote_d_ivoire.html" shape="rect">
+    <area alt="Ghana" coords="409,364,466,389" href="ghana.html" shape="rect">
+    <area alt="Togo" coords="484,427,530,449" href="togo.html" shape="rect">
+    <area coords="526,411,581,431" href="benin.html" shape="rect">
+    <area alt="S&atilde;o Tom&eacute; &amp; Pr&iacute;ncipe" coords="564,523,672,563" href="sao_tome_principe.html"
+          shape="rect">
+    <area alt="GIS Portal" coords="35,511,315,535" href="https://eo4sd.eofrom.space/?state=476a3b" shape="rect">
+    <area alt="User Guide PDF" coords="35,551,261,575"
           href="https://storage.cloud.google.com/eo4sd-271513.appspot.com/Help%20Guides/D5%20Technical%20Note%20-%20PML%20EO4SD%20Portal%20Help%20Guide%20Final.pdf"
-          alt="User Guide PDF">
+          shape="rect">
 </map>
 
 <div class="img-container">
-    <h3><a href="../index.html"><img src="../images/icons/up2.png" width="50" alt="Up"></a>&nbsp;&nbsp;&nbsp;WEST AFRICA
+    <h3><a href="../index.html"><img alt="Up" src="../images/icons/up2.png" width="50"></a>&nbsp;&nbsp;&nbsp;WEST AFRICA
     </h3>
     <h4>Click on a country on the map to display its data:</h4><br>
-    <p><img src="../images/WestAfrica_countries_cut_v4.png" alt="West Africa Map" width="800" usemap="#wamap"
-            align="center">
-        <map name="wamapMap">
-            <area shape="rect" coords="630,308,700,334" href="nigeria.html" alt="Nigeria">
-        </map>
-    </p>
+    <p><img align="center" alt="West Africa Map" src="../images/WestAfrica_countries_cut_v4.png" usemap="#wamap"
+            width="800"></p>
 </div>
-
+<p>&nbsp;<br><br><br><br><br><br><br><br></p>
 </body>
 </html>
