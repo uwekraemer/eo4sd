@@ -4,9 +4,8 @@
 
 _author_ = 'uwe'
 
-blacklistFile = "/Volumes/Elephant/Users/uwe/Documents/BC-projects/Development/html/ApacheLogs/eo4sd/blacklist.txt"
-apacheLogFile = "/Volumes/Elephant/Users/uwe/Documents/BC-projects/Development/html/ApacheLogs/eo4sd/raw log files/" \
-                "access-eo4sd.brockmann-consult.de.log.2021-01"
+blacklistFile = "/Volumes/Elephant/Users/uwe/Documents/BC-projects/Development/html/ApacheLogs/blacklist.txt"
+apacheLogFile = "/Volumes/Elephant/Users/uwe/Documents/BC-projects/Development/html/ApacheLogs/eo4sd/raw log files/access-eo4sd.brockmann-consult.de.log.2021-02"
 newOutputFile = apacheLogFile + ".cleaned"
 cleanedContentFile = apacheLogFile + ".removed"
 
